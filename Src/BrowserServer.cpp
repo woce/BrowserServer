@@ -102,7 +102,7 @@ BrowserServer* BrowserServer::instance()
 }
 
 BrowserServer::BrowserServer()
-    : BrowserServerBase("browser")
+    : BrowserServerBase("browser-ports")
     , m_pageCount(0)
     , m_networkAccessManager(0)
     , m_cookieJar(0)
